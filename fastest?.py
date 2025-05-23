@@ -96,5 +96,5 @@ def parallel_process_links(n_trials=10_000, workers=None,
 
 if __name__ == '__main__':
     t0 = time.time()
-    parallel_process_links(n_trials=100, workers=None)
+    parallel_process_links(n_trials=10000, workers=None)
     print(f'Finished in {time.time()-t0:.2f} s')
